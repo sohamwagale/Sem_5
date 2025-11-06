@@ -1,0 +1,213 @@
+{
+  "preferences": [
+    "fantasy",
+    "adventure",
+    "history",
+    "romance",
+    "science_fiction",
+    "mystery",
+    "horror",
+    "classic_literature",
+    "philosophy",
+    "young_adult",
+    "dystopian",
+    "humor"
+  ],
+  "rules": [
+    {
+      "id": "rule_01",
+      "conditions": {
+        "fantasy": true,
+        "adventure": true
+      },
+      "recommendation": {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "year": 1937,
+        "description": "A fantasy adventure about Bilbo Baggins, a hobbit who embarks on an unexpected journey with dwarves to reclaim their mountain home from a dragon."
+      }
+    },
+    {
+      "id": "rule_02",
+      "conditions": {
+        "science_fiction": true,
+        "dystopian": true
+      },
+      "recommendation": {
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1949,
+        "description": "A dystopian novel set in a totalitarian society under constant surveillance, exploring themes of truth, freedom, and power."
+      }
+    },
+    {
+      "id": "rule_03",
+      "conditions": {
+        "mystery": true,
+        "classic_literature": true
+      },
+      "recommendation": {
+        "title": "The Adventures of Sherlock Holmes",
+        "author": "Arthur Conan Doyle",
+        "year": 1892,
+        "description": "A collection of twelve short stories featuring the legendary detective Sherlock Holmes and his companion Dr. Watson."
+      }
+    },
+    {
+      "id": "rule_04",
+      "conditions": {
+        "romance": true,
+        "classic_literature": true
+      },
+      "recommendation": {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "year": 1813,
+        "description": "A romantic novel about Elizabeth Bennet and Mr. Darcy, exploring themes of love, class, and social expectations in Regency England."
+      }
+    },
+    {
+      "id": "rule_05",
+      "conditions": {
+        "history": true,
+        "adventure": true
+      },
+      "recommendation": {
+        "title": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "year": 1844,
+        "description": "An epic tale of betrayal, imprisonment, escape, and revenge set in early 19th-century France and Italy."
+      }
+    },
+    {
+      "id": "rule_06",
+      "conditions": {
+        "horror": true,
+        "classic_literature": true
+      },
+      "recommendation": {
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "year": 1897,
+        "description": "A Gothic horror novel about Count Dracula's attempt to move from Transylvania to England and the battle to stop him."
+      }
+    },
+    {
+      "id": "rule_07",
+      "conditions": {
+        "science_fiction": true,
+        "adventure": true
+      },
+      "recommendation": {
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "year": 2011,
+        "description": "A thrilling survival story about an astronaut stranded on Mars who must use his ingenuity to stay alive and signal for rescue."
+      }
+    },
+    {
+      "id": "rule_08",
+      "conditions": {
+        "fantasy": true,
+        "young_adult": true
+      },
+      "recommendation": {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "year": 1997,
+        "description": "The first book in the Harry Potter series, following a young wizard's journey at Hogwarts School of Witchcraft and Wizardry."
+      }
+    },
+    {
+      "id": "rule_09",
+      "conditions": {
+        "philosophy": true,
+        "classic_literature": true
+      },
+      "recommendation": {
+        "title": "The Stranger",
+        "author": "Albert Camus",
+        "year": 1942,
+        "description": "An existentialist novel about Meursault, a French Algerian who commits a senseless murder and confronts the absurdity of life."
+      }
+    },
+    {
+      "id": "rule_10",
+      "conditions": {
+        "dystopian": true,
+        "young_adult": true
+      },
+      "recommendation": {
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "year": 2008,
+        "description": "A dystopian novel about Katniss Everdeen who volunteers for a televised fight to the death in a post-apocalyptic world."
+      }
+    },
+    {
+      "id": "rule_11",
+      "conditions": {
+        "humor": true,
+        "science_fiction": true
+      },
+      "recommendation": {
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "year": 1979,
+        "description": "A comedic science fiction series following Arthur Dent's intergalactic adventures after Earth is destroyed to make way for a hyperspace bypass."
+      }
+    },
+    {
+      "id": "rule_12",
+      "conditions": {
+        "mystery": true,
+        "horror": true
+      },
+      "recommendation": {
+        "title": "The Shining",
+        "author": "Stephen King",
+        "year": 1977,
+        "description": "A psychological horror novel about a family's winter at the isolated Overlook Hotel where supernatural forces prey on the father's sanity."
+      }
+    },
+    {
+      "id": "rule_13",
+      "conditions": {
+        "fantasy": true,
+        "romance": true
+      },
+      "recommendation": {
+        "title": "Stardust",
+        "author": "Neil Gaiman",
+        "year": 1999,
+        "description": "A magical tale about a young man who ventures into a magical realm to retrieve a fallen star for his beloved, only to discover much more."
+      }
+    },
+    {
+      "id": "rule_14",
+      "conditions": {
+        "adventure": true,
+        "young_adult": true
+      },
+      "recommendation": {
+        "title": "Treasure Island",
+        "author": "Robert Louis Stevenson",
+        "year": 1883,
+        "description": "A classic adventure story about young Jim Hawkins and his quest to find buried treasure while dealing with pirates and mutiny."
+      }
+    },
+    {
+      "id": "rule_15",
+      "conditions": {
+        "history": true,
+        "romance": true
+      },
+      "recommendation": {
+        "title": "Outlander",
+        "author": "Diana Gabaldon",
+        "year": 1991,
+        "description": "A time-travel romance following Claire Randall, a WWII nurse who is transported to 18th-century Scotland and falls in love."
+      }
+    }
+  ]
+}
